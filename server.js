@@ -4,7 +4,7 @@ var osc = require('osc-min');
 
 var server = dgram.createSocket("udp4");
 // var socket = io('http://104.131.61.142:8080');
-// var socket = io('http://localhost:8080');
+var socket = io('http://localhost:8080');
 
 
 var oscObj;
@@ -38,5 +38,5 @@ server.on("listening", function () {
 });
 
 
-server.bind(8080);
+server.bind(5001);
 // server listening 0.0.0.0:5001
