@@ -20,7 +20,7 @@
 11 error There is likely additional logging output above.
 12 error System Darwin 13.4.0
 13 error command "node" "/usr/local/bin/npm" "start"
-14 error cwd /Users/william/Documents/Projects/muse-hack
+14 error cwd /Users/william/Documents/Projects/sensory-client
 15 error node -v v0.10.26
 16 error npm -v 1.4.6
 17 error code ELIFECYCLE
